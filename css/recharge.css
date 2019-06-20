@@ -1,0 +1,109 @@
+@import "base.css";
+/*head*/
+header{
+    height: 0.88rem;
+    color: #4ebbfe;
+    display: flex;
+    padding: 0 0.22rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0.03rem 0.43rem 0 rgba(41, 167, 255, 0.1);
+}
+header > p{
+    font-size: 0.38rem;
+}
+header a{
+    color: #4ebbfe;
+    width: 0.16rem;
+    height: 0.16rem;
+}
+section{
+    padding: 0 0.24rem;
+}
+section > ul{
+    padding: 0.4rem 0;
+    border-bottom: 0.02rem solid rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+section > ul > li{
+    width: 2.18rem;
+    height: 1.08rem;
+    margin-bottom: 0.2rem;
+    background-color: #e7f6ff;
+    border-radius: 0.08rem;
+    opacity: 0.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.amount{
+    line-height: 0.48rem;
+}
+.amount > strong{
+    font-size: 0.4rem;
+    margin-right: 0.1rem;
+    color: #3bacfe;
+}
+.amount > span{
+    font-size: 0.3rem;
+    margin-right: 0.1rem;
+    color: #3bacfe;
+    opacity: 0.55;
+}
+.price > span{
+    font-size: 0.2rem;
+    margin-right: 0.1rem;
+    color: #3bacfe;
+}
+.price > strong{
+    font-size: 0.28rem;
+    margin-right: 0.1rem;
+    color: #3bacfe;
+}
+section > ul > li.hot{
+    background-color: #3bacfe;
+}
+li.hot > .amount > strong{
+    color: #ffffff;
+}
+li.hot > .amount > span{
+    color: #ffffff;
+}
+li.hot > .price > span{
+    color: #ffffff;
+}
+li.hot > .price > strong{
+    color: #ffffff;
+}
+form{
+    margin-top: 0.84rem;
+}
+form > input{
+    width: 4.75rem;
+    height: 0.76rem;
+    padding: 0.1rem;
+    box-sizing: border-box;
+    border-radius: 0.08rem;
+    background-color: #e7f6ff;
+    border: 0.02rem solid #c2e2f9;
+    opacity: 0.5;
+}
+form > a{
+    width: 1.96rem;
+    height: 0.6rem;
+    display: inline-block;
+    margin: 0 auto;
+    line-height: 0.6rem;
+    text-align: center;
+    font-size: 0.2rem;
+    color: #ffffff;
+    background-image: linear-gradient(90deg, #37e06f 0%, #31d69a 100%);
+    box-shadow: 0 0.04rem 0.2rem 0 rgba(55, 223, 116, 0.75);
+    border-radius: 0.3rem;
+    float: right;
+}

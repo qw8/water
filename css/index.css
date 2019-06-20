@@ -1,0 +1,143 @@
+@import "base.css";
+/*头部*/
+header{
+    width: 100%;
+    height: 0.88rem;
+    line-height: 0.88rem;
+    color: #4ebbfe;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+    font-size: 0.38rem;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 0;
+    background-color: #fbfeff;
+    box-shadow: 0 0.03rem 0.43rem 0 rgba(41, 167, 255, 0.13);
+}
+header>a{
+    width: 0.3rem;
+    height: 0.3rem;
+}
+header .iconfont{
+    color: #4ebbfe;
+}
+
+/*搜索栏*/
+.search{
+    padding: 0.07rem 0.22rem;
+    width: 100%;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    box-sizing: border-box;
+    font-size: 0.28rem;
+    margin-bottom: 0.3rem;
+}
+.search .searchleft{
+    float: left;
+    height: 0.6rem;
+    color: #4ebbfe;
+    font-size: 0.28rem;
+}
+.search .iconfont{
+    float: right;
+}
+.search .searchright{
+    float: right;
+    width: 5.93rem;
+    height: 0.6rem;
+    border: 0.01rem solid #046B80;
+    border-radius: 0.3rem;
+}
+.searchright>a{
+    color: #c8d9e6;
+}
+
+/*轮播图*/
+.swiper-container{
+    width: 100%;
+    height: 3rem;
+    margin-top: 0.17rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+/*图片列表*/
+.category{
+    padding: 0.22rem;
+    height: 6.9rem;
+    background: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.category>li{
+    width: 2.35rem;
+    height: 1.94rem;
+}
+.category>li>a{
+    width: 100%;
+    height: 100%;
+    color: #8e9397;
+    font-size: 0.24rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.category>li>a>div{
+    width: 1.13rem;
+    height: 1.13rem;
+}
+
+/*底部菜单栏*/
+footer{
+    width: 100%;
+    height: 0.98rem;
+    background-color: rgba(241, 249, 255, 1);
+    opacity: 0.5;
+    padding: 0 0.22rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+}
+footer>a{
+    width: 0.7rem;
+    height: 100%;
+    font-size: 0.24rem;
+    letter-spacing: 0.01rem;
+    color: rgba(157, 220, 255, 1);
+    text-align: center;
+}
+footer>a>img{
+    width: 0.5rem;
+    height: 0.5rem;
+    display: inline-block;
+}
+footer >a .hot{
+    opacity: 1;
+    color: rgba(89, 195, 254, 1);
+}

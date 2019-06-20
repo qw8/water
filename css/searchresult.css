@@ -1,0 +1,297 @@
+@import "base.css";
+html {
+    font-size: 100px; }
+
+body {
+    font-size: 16px; }
+
+@media screen and (min-width: 320px) {
+    html {
+        font-size: 42.66667px; } }
+
+@media screen and (min-width: 360px) {
+    html {
+        font-size: 48px; } }
+
+@media screen and (min-width: 375px) {
+    html {
+        font-size: 50px; } }
+
+@media screen and (min-width: 412px) {
+    html {
+        font-size: 54.93333px; } }
+
+@media screen and (min-width: 414px) {
+    html {
+        font-size: 55.2px; } }
+.head{
+    width: 100%;
+    height: 0.88rem;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+    background: #fdfff8;
+    font-size: 0.38rem;
+    line-height: 0.88rem;
+    display: flex;
+    justify-content: space-between;
+}
+.head >a{
+    color: #4ebbfe;
+}
+.head span{
+    color:#4ebbfe ;
+}
+.search{
+    width: 7.12rem;
+    height: 0.6rem;
+    background: #ebf7ff;
+    margin: 0rem auto;
+    opacity: 0.58;
+}
+.search p{
+    width: 0.73rem;
+    height: 0.23rem;
+    font-size: 0.24rem;
+    font-weight: normal;
+    float: left;
+    margin: 0.18rem 0.29rem 0 0.19rem;
+    color: #000000;
+    opacity: 0.5;
+
+}
+.search .tubiao{
+    width: 0.79rem;
+    height: 0.44rem;
+    border-radius: 0.21rem;
+    float: right;
+    margin-top: 0.08rem;
+    margin-bottom: 0.08rem;
+    margin-right: 0.09rem;
+}
+.search img{
+    width: 100%;
+    height: 100%;
+}
+
+.first{
+    width: 100%;
+    height: 3.54rem;
+    background: #fdfff8;
+    margin-top: 0.20rem;
+    padding: 0.15rem;
+    box-sizing: border-box;
+}
+.first .weixiu{
+    width: 1.6rem;
+    height: 0.5rem;
+}
+.weixiu p{
+    font-size: 0.32rem;
+    font-weight: bolder;
+    line-height: 0.40rem;
+    position: relative;
+    margin-left: 0.21rem;
+}
+.weixiu p::before{
+    content: '';
+    position: absolute;
+    width: 0.06rem;
+    height: 0.06rem;
+    left: -0.15rem;
+    top: 0.14rem;
+    border-radius: 50%;
+    background: #36a8fe;
+
+
+}
+.details{
+    width: 6.89rem;
+    height: 1.99rem;
+    margin-top: 0.20rem;
+}
+.details >a {
+      display: flex;
+      width: 100%;
+      height: 100%;
+      position: relative;
+      margin-bottom: 0.33rem;
+}
+.thumb{
+    height: 1.74rem;
+    width: 1.74rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 0.1rem;
+    box-sizing: border-box;
+}
+.thumb img{
+    width: 100%;
+    height: 100%;
+}
+.info{
+    height: 1.74rem;
+    background: #fdfff8;
+    margin-left: 1.74rem;
+    padding-left: 0.26rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.info >h1{
+    font-size: 0.28rem;
+    color: rgba(0,0,0,0.6);
+    font-weight: normal;
+    /*line-height: 50%;*/
+}
+.info .score{
+    font-size: 0.22rem;
+    color: #333333;
+    /*line-height: 100%;*/
+}
+.info .score >span{
+    position: relative;
+    padding-left: 0.14rem;
+    margin-right: 0.58rem;
+}
+.info .score >span::before{
+    content: '';
+    position: absolute;
+    width: 0.06rem;
+    height: 0.06rem;
+    left: 0;
+    top: 0.14rem;
+    border-radius: 50%;
+    background: #36a8fe;
+}
+.info .score strong{
+    font-size: 0.26rem;
+    color: #36a8fe;
+}
+.info .tag{
+    font-size: 0.20rem;
+    color: #36a8fe;
+    /*line-height: 100%;*/
+}
+.info .tag span{
+    color:#36a8fe ;
+    background: rgba(59,171,255,0.1);
+    border-radius: 0.3rem;
+    padding: 0.1rem;
+    box-sizing: border-box;
+}
+.info .total{
+    font-size: 0.20rem;
+    color: rgba(0,0,0,0.3);
+    line-height: 100%;
+    position: relative;
+    margin-left: 0.1rem;
+}
+.info .total::before{
+    content: '';
+    position: absolute;
+    width: 0.06rem;
+    height: 0.06rem;
+    left: -0.09rem;
+    top: 0.12rem;
+    border-radius: 50%;
+    background: #36a8fe;
+}
+.info .price{
+    width: 1.4rem;
+    height: 1rem;
+    font-size: 0.26rem;
+    line-height: 0.45rem;
+    text-align: center;
+    color: #fbb548;
+    position: absolute;
+    right: 0rem;
+    top: 0rem;
+}
+.info .order{
+    width: 1.24rem;
+    height: 0.45rem;
+    background-color: #3bacfe;
+    box-shadow: 0px 5px 12px 0px
+    rgba(59, 172, 254, 0.43);
+    border-radius: 0.22rem;
+    font-size: 0.20rem;
+    line-height: 0.45rem;
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    right: 0;
+    bottom: 0.2rem;
+}
+
+.list{
+    width: 7.5rem;
+    position: absolute;
+    /*不写父元素 相对于整个页面定位*/
+    top: 5rem;
+    /*量出来是1.76 但是为了与上面有一点间距所以写大一点*/
+    bottom: 0rem;
+    overflow: hidden;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+    font-size: 0.38rem;
+}
+.list .sail{
+    width: 1.6rem;
+    height: 0.5rem;
+}
+.sail p{
+    font-size: 0.32rem;
+    font-weight: bolder;
+    line-height: 0.40rem;
+    position: relative;
+    margin-left: 0.21rem;
+}
+.sail p::before{
+    content: '';
+    position: absolute;
+    width: 0.06rem;
+    height: 0.06rem;
+    left: -0.15rem;
+    top: 0.14rem;
+    border-radius: 50%;
+    background: #36a8fe;
+}
+.list .scroll .listItem{
+    height: 1.9rem;
+    background: #fdfff8;
+}
+.listItem >a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-bottom: 0.33rem;
+}
+.thumb2{
+    height: 1.74rem;
+    width: 1.74rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 0.1rem;
+    box-sizing: border-box;
+}
+.thumb2 img{
+    height: 100%;
+    width: 100%;
+}
+.listItem .info .price2{
+    width: 0.7rem;
+    height: 0.3rem;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 0.26rem;
+    color: #fbb548;
+    margin-bottom: 0.2rem;
+}
+
+
+

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ch">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0,user-scalable=0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="format-detection" content="telephone=no, email=no" />
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_1194326_59plw2qlb5u.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <title>首页</title>
+</head>
+<body>
+
+<header>
+    <span></span>
+    <span>中北大学</span>
+    <span></span>
+</header>
+
+<div class="search">
+    <div class="searchleft">
+        <span>太原</span>
+        <div class="iconfont icon-xiangxia"></div>
+    </div>
+    <div class="searchright">
+        <a href="search.html">搜索您需要的服务、商品</a>
+    </div>
+</div>
+
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="./image/banner.png" alt="加载失败"></div>
+        <div class="swiper-slide"><img src="./image/qw.jpg" alt="加载失败"></div>
+        <div class="swiper-slide"><img src="./image/canzhuo.jpg" alt="加载失败"></div>
+        <div class="swiper-slide"><img src="./image/shenquan.png" alt="加载失败"></div>
+        <div class="swiper-slide"><img src="./image/a4.jpg" alt="加载失败"></div>
+        <div class="swiper-slide"><img src="./image/a6.jpg" alt="加载失败"></div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+</div>
+
+<!-- Swiper JS -->
+<script src="./js/swiper.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        autoplay: {
+            delay: 2000,
+            disableOnInteraction: false,
+        },
+    });
+</script>
+
+
+<ul class="category">
+        <li><a href="list.html">
+            <div><img src="./image/1.png" alt="加载失败1"></div>
+            水路综合
+        </a></li>
+        <li><a href="list.html">
+            <div><img src="./image/2.png" alt="加载失败2"></div>
+            水管维修
+        </a></li>
+        <li><a href="list.html">
+            <div><img src="./image/3.png" alt="加载失败3"></div>
+            管道维修
+        </a></li>
+        <li><a href="list.html">
+            <div><img src="./image/4.png" alt="加载失败4"></div>
+            龙头维修
+        </a></li>
+        <li><a href="list.html">
+            <div><img src="./image/5.png" alt="加载失败5"></div>
+            地漏疏通
+        </a></li>
+        <li><a href="list.html">
+            <div><img src="./image/6.png" alt="加载失败6"></div>
+            阀门维修
+        </a></li>
+        <li><a href="list.html">
+            <div><img src="./image/7.png" alt="加载失败7"></div>
+            下水道疏通
+        </a></li>
+        <li><a href="list.html">
+            <div><img src="./image/8.png" alt="加载失败8"></div>
+            其它
+        </a></li>
+        <li><a href="">
+
+        </a></li>
+</ul>
+
+<footer>
+    <a href="index.html"><img src="./image/sy.png" alt="加载失败">首页</a>
+    <a href="mall.html"><img src="./image/store.png" alt="加载失败">商城</a>
+    <a href=""><img src="./image/rz.png" alt="加载失败">入驻</a>
+    <a href="orderall.html"><img src="./image/order.png" alt="加载失败">订单</a>
+    <a href="person.html"><img src="./image/personal.png" alt="加载失败">我的</a>
+</footer>
+
+</body>
+</html>

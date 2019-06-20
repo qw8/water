@@ -1,0 +1,89 @@
+@import "base.css";
+/*head*/
+header{
+    height: 0.88rem;
+    color: #4ebbfe;
+    display: flex;
+    padding: 0 0.22rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0.03rem 0.43rem 0 rgba(41, 167, 255, 0.1);
+}
+header > p{
+    font-size: 0.38rem;
+}
+header a{
+    color: #4ebbfe;
+    width: 0.16rem;
+    height: 0.16rem;
+}
+section{
+    padding: 0 0.22rem;
+}
+.wallet{
+    width: 6.4rem;
+    margin: 0 auto 0.72rem;
+    border-bottom: 0.02rem  solid rgba(0,0,0,0.2);
+}
+.wallet > .walletImg{
+    width: 1.16rem;
+    height: 1.12rem;
+    margin: 0.94rem auto 0.60rem;
+}
+.wallet > .walletcount{
+    margin-bottom: 0.64rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.wallet > .walletcount > span {
+    font-size: 0.26rem;
+    opacity: 0.7;
+    position: relative;
+}
+.wallet > .walletcount > span:nth-child(1)::before{
+    content: '';
+    display: block;
+    width: 0.1rem;
+    height: 0.05rem;
+    background-color: #3ab1ff;
+    box-shadow: 0 0.02rem 0.05rem 0 rgba(58, 177, 255, 0.43);
+    border-radius: 0.03rem;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(-200%,0);
+}
+.wallet > .walletcount > span:nth-child(3)::before{
+    content: '';
+    display: block;
+    width: 0.1rem;
+    height: 0.05rem;
+    background-color: #3ab1ff;
+    box-shadow: 0 0.02rem 0.05rem 0 rgba(58, 177, 255, 0.43);
+    border-radius: 0.03rem;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(200%,0);
+}
+.wallet > .walletcount > strong {
+    font-size: 0.46rem;
+    margin: 0 0.1rem;
+    color: #525f67;
+}
+.Recharge{
+    width: 3.96rem;
+    height: 0.6rem;
+    display: block;
+    margin: 0 auto;
+    line-height: 0.6rem;
+    text-align: center;
+    font-size: 0.2rem;
+    color: #ffffff;
+    background-image: linear-gradient(90deg, #37e06f 0%, #31d69a 100%);
+    box-shadow: 0 0.04rem 0.2rem 0 rgba(55, 223, 116, 0.75);
+    border-radius: 0.3rem;
+}

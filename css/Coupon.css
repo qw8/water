@@ -1,0 +1,167 @@
+@import "base.css";
+/*head*/
+header{
+    height: 0.88rem;
+    color: #4ebbfe;
+    display: flex;
+    padding: 0 0.22rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0.03rem 0.43rem 0 rgba(41, 167, 255, 0.1);
+}
+header > p{
+    font-size: 0.38rem;
+}
+header a{
+    color: #4ebbfe;
+    width: 0.16rem;
+    height: 0.16rem;
+}
+/*section*/
+section{
+    padding: 0 0.22rem;
+}
+/*nav*/
+.nav{
+    padding: 0.44rem 0.22rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.nav > li{
+    width: 1.34rem;
+    height: 0.52rem;
+    margin-right: 0.25rem;
+    border-radius: 0.26rem;
+    font-size: 0.2rem;
+    color: #3bacfe;
+    background: #e7f6ff;
+    display: flex;
+    justify-content: center;
+    line-height: 0.52rem;
+}
+.nav > li.hot{
+    background-color: #3bacfe;
+    box-shadow: 0 0.05rem 0.12rem 0 rgba(59, 172, 254, 0.43);
+    color: #ffffff;
+}
+/*优惠券*/
+ul > li{
+    width: 7.06rem;
+    height: 1.84rem;
+    padding: 0.18rem;
+    margin-bottom: 0.32rem;
+    box-sizing: border-box;
+    border-radius: 0.1rem;
+    background: #e9eaed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ul > li:nth-child(1){
+    background: linear-gradient(90deg, #27d29c 0%, #33e170 100%);
+}
+ul > li:nth-child(2){
+    background: linear-gradient(90deg, #33a2f8 0%, #3fdef1 100%);
+}
+ul > li:nth-child(3){
+    background: linear-gradient(90deg, #ffb637 0%, #ffde47 100%);
+}
+ul > li > .cLeft{
+    width: 4.94rem;
+    height: 100%;
+}
+ul > li > .cLeft > .couponMess{
+    padding: 0.15rem 0;
+    box-sizing: border-box;
+    border-bottom: 0.01rem dashed #fbfeff;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+
+}
+ul > li > .cLeft > .couponMess > .couponMessL{
+    width: 1.5rem;
+    height: 0.7rem;
+    line-height: 0.7rem;
+    text-align: center;
+}
+ul > li > .cLeft > .couponMess > .couponMessL > span{
+    font-size: 0.8rem;
+    color: #ffffff;
+}
+ul > li > .cLeft > .couponMess > .content > p:nth-child(1){
+    font-size: 0.26rem;
+    color: #ffffff;
+    margin-bottom: 0.1rem;
+}
+ul > li > .cLeft > .couponMess > .content > p:nth-child(2){
+    font-size: 0.26rem;
+    color: #fbfeff;
+    opacity: 0.6;
+}
+ul > li > .cLeft > .validity{
+    display: block;
+    margin: 0.1rem 0 0.1rem 0.2rem;
+    font-size: 0.2rem;
+    color: #fbfeff;
+    opacity: 0.6;
+    position: relative;
+}
+ul > li > .cLeft > .validity::before{
+    content: "";
+    display: block;
+    width: 0.05rem;
+    height: 0.05rem;
+    border-radius: 50%;
+    background: #ffffff;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(-400%,-50%);
+}
+ul > li > .cRight{
+    width: 1.4rem;
+    height: 100%;
+}
+ul > li > .cRight > .price{
+
+}
+ul > li > .cRight > .price > strong{
+    font-size: 0.84rem;
+    color: #fbfeff;
+}
+ul > li > .cRight > .price > span{
+    font-size: 0.22rem;
+    color: #fbfeff;
+    margin-bottom: 0.28rem;
+}
+ul > li > .cRight > .use{
+    width: 1.36rem;
+    height: 0.38rem;
+    display: block;
+    margin: 0 auto;
+    line-height: 0.38rem;
+    text-align: center;
+    font-size: 0.2rem;
+    background: #ffffff;
+    border-radius: 0.3rem;
+}
+ul > li:nth-child(1) > .cRight > .use{
+    color: #33e170;
+}
+ul > li:nth-child(2) > .cRight > .use{
+    color: #3fdef1;
+}
+ul > li:nth-child(3) > .cRight > .use{
+    color: #ffde47;
+}
+
+.used{
+    display: none;
+}
+.expired{
+    display: none;
+}

@@ -1,0 +1,115 @@
+/*排序方式*/
+.order{
+    height: 0.88rem;
+    padding: 0 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.88rem;
+    font-size: 0.22rem;
+    color: #4ebbfe;
+}
+.order>li.hot{
+    color: #36d681;
+}
+.order>li>.iconfont{
+    font-size: 0.22rem;
+    margin-left: 0.22rem;
+}
+
+/*列表*/
+.list{
+    width: 100%;
+    position: absolute;
+    top: 2rem;
+    bottom: 0;
+    padding: 0 0.22rem;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.item{
+    height: 1.74rem;
+    background: #fbfeff;
+    margin-bottom: 0.1rem;
+}
+.list .item>a{
+    display: flex;
+}
+.item .itemleft{
+    flex-basis: 1.74rem;
+    height: 1.74rem;
+    float: left;
+    padding: 0.3rem;
+    box-sizing: border-box;
+    border-radius: 0.1rem;
+}
+.item .itemright{
+    width: 2rem;
+    height: 1.74rem;
+    float: left;
+    flex-grow: 1;
+    padding-left: 0.27rem;
+    flex-direction: column;
+    display: inline-block;
+    position: relative;
+}
+.itemright h1{
+    font-size: 0.28rem;
+    color: rgba(0,0,0,0.6);
+    margin-top: 0.22rem;
+}
+.itemright .score{
+    font-size: 0.22rem;
+    color: rgba(0,0,0,0.3);
+    padding: 0.1rem 0;
+}
+.itemright .score>span{
+    position: relative;
+    margin-right: 0.58rem;
+}
+.itemright .score>span::before{
+    content: "";
+    width: 0.06rem;
+    height: 0.06rem;
+    border-radius: 50%;
+    background: #4ebbfe;
+    position: absolute;
+    top: 0.14rem;
+    left: -0.1rem;
+}
+.score>span>strong{
+    color: #36a8fe;
+}
+.itemright .tag{
+    font-size: 0.2rem;
+    color: #36a8fe;
+}
+.itemright .tag>span{
+    border-radius: 0.16rem;
+    background: #e7f6ff;
+    margin-right: 0.36rem;
+    padding: 0.1rem;
+}
+.itemright .total{
+    font-size: 0.18rem;
+    color: rgba(0,0,0,0.3);
+    position: relative;
+    padding: 0.1rem 0;
+}
+.itemright .total>span::before{
+    content: "";
+    width: 0.06rem;
+    height: 0.06rem;
+    border-radius: 50%;
+    background: #4ebbfe;
+    position: absolute;
+    top: 0.2rem;
+    left: -0.1rem;
+}
+.itemright .price{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 0.26rem;
+    color: #fbb548;
+}
+

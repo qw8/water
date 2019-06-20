@@ -1,0 +1,285 @@
+span {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 0.88rem;
+    line-height: 0.88rem;
+    color: #4ebbfe;
+    font-size: 0.38rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+    box-shadow: 0 0.03rem 0.43rem 0 rgba(41, 167, 255, 0.13);
+}
+
+header .iconfont {
+    font-size: 0.38rem;
+}
+
+.content {
+    width: 6rem;
+    height: 5.3rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content h1 {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    font-size: 0.32rem;
+    color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    margin-bottom: 0.6rem;
+}
+
+.input {
+    width: 100%;
+    height: 1.12rem;
+    border-bottom: 0.02rem solid #eef1f2;
+    overflow: hidden;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.input > span {
+    display: block;
+    height: 100%;
+    width: 0.64rem;
+    float: left;
+    font-size: 0.22rem;
+    color: #40b1ff;
+    text-align: center;
+    line-height: 1.12rem;
+}
+
+.input input {
+    display: block;
+    height: 100%;
+    border: none;
+    padding: 0.3rem 0.2rem;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 0.22rem;
+    color: #c9cbcc;
+    float: left;
+    flex-grow: 1;
+}
+
+.input span img {
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+.input span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputs {
+    width: 100%;
+    height: 1.12rem;
+    border-bottom: 0.02rem solid #eef1f2;
+    overflow: hidden;
+    box-sizing: border-box;
+    display: flex;
+    position: relative;
+}
+
+.inputs > span {
+    display: block;
+    height: 100%;
+    width: 0.64rem;
+    float: left;
+    font-size: 0.22rem;
+    color: #40b1ff;
+    text-align: center;
+    line-height: 1.12rem;
+}
+
+.inputs input {
+    display: block;
+    height: 100%;
+    border: none;
+    padding: 0.3rem 0.2rem;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 0.22rem;
+    color: #c9cbcc;
+    float: left;
+    flex-grow: 1;
+}
+
+.inputs span img {
+    width: 0.3rem;
+    height: 0.3rem;
+}
+
+.inputs span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputs div {
+    position: absolute;
+    box-sizing: border-box;
+    width: 1.66rem;
+    height: 0.46rem;
+    padding: 0.12rem 0.24rem;
+    top: 50%;
+    margin-top: -0.23rem;
+    right: 0;
+    border-radius: 0.3rem;
+    background: #37df72;
+    box-shadow: 0 0.04rem 0.2rem 0 rgba(55, 223, 116, 0.75);
+}
+
+.inputs > div > p {
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;
+    color: #ffffff;
+    font-size: 0.22rem;
+}
+
+.input1 {
+    width: 100%;
+    height: 1.12rem;
+    border-bottom: 0.02rem solid #eef1f2;
+    overflow: hidden;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.input1 > span {
+    display: block;
+    height: 100%;
+    width: 0.64rem;
+    float: left;
+    font-size: 0.22rem;
+    color: #40b1ff;
+    text-align: center;
+    line-height: 1.12rem;
+}
+
+.input1 input {
+    display: block;
+    height: 100%;
+    border: none;
+    padding: 0.3rem 0.2rem;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 0.22rem;
+    color: #c9cbcc;
+    float: left;
+    flex-grow: 1;
+}
+
+.input1 span img {
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+.input1 span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.input2 {
+    width: 100%;
+    height: 1.12rem;
+    border-bottom: 0.02rem solid #eef1f2;
+    overflow: hidden;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.input2 > span {
+    display: block;
+    height: 100%;
+    width: 0.64rem;
+    float: left;
+    font-size: 0.22rem;
+    color: #40b1ff;
+    text-align: center;
+    line-height: 1.12rem;
+}
+
+.input2 input {
+    display: block;
+    height: 100%;
+    border: none;
+    padding: 0.3rem 0.2rem;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 0.22rem;
+    color: #c9cbcc;
+    float: left;
+    flex-grow: 1;
+}
+
+.input2 span img {
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+.input2 span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.signIn {
+    width: 100%;
+    height: auto;
+    padding: 0 0.64rem 0.3rem;
+    box-sizing: border-box;
+    margin-top: 0.4rem;
+}
+
+.signIn  a{
+    font-size: 0.2rem;
+    height: 0.52rem;
+    background: #e7f6ff;
+    color: #6bc1fe;
+    text-align: center;
+    padding: 0.16rem 1.52rem;
+    box-sizing: border-box;
+    border-radius: 0.3rem;
+}
+
+.content .clause {
+    width: 100%;
+    height: 0.25rem;
+    font-size: 0.22rem;
+    color: #000000;
+    opacity: 0.3;
+    line-height: 0.25rem;
+    padding: 0 0 0 0.4rem;
+    position: relative;
+}
+
+.content .clause:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0.25rem;
+    height: 0.25rem;
+    background: #e7f6ff;
+    border-radius: 50%;
+    left: 0;
+}
